@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 28px 16px 40px;
+    font-family: "Yu Gothic", "Hiragino Sans", "Meiryo", sans-serif;
+    background: #dbffff;
+    color: #111;
+    line-height: 1.8;
+}
+
+.site-header,
+.main-content {
+    width: min(820px, calc(100% - 24px));
+    margin: 0 auto;
+}
+
+.topline {
+    height: 2px;
+    background: #111;
+    margin-bottom: 18px;
+}
+
+.site-title {
+    margin: 0 0 14px;
+    padding: 0 0 12px;
+    font-size: clamp(1.8rem, 3vw, 2.8rem);
+    line-height: 1.3;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-align: center;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.7);
+}
+
+.lead {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.main-content {
+    margin-top: 26px;
+}
+
+section {
+    margin-bottom: 28px;
+    padding-top: 8px;
+}
+
+h2 {
+    margin: 0 0 12px;
+    font-size: 1.15rem;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.5);
+    padding-bottom: 6px;
+}
+
+.profile-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 12px 0 20px;
+}
+
+.profile-image {
+    width: 234px;
+    height: 234px;
+    object-fit: cover;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+}
+
+.profile-text p {
+    margin: 0 0 2px;
+}
+
+ul {
+    margin-top: 0;
+    padding-left: 1.2em;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+.site-note {
+    margin-top: 18px;
+    padding-top: 12px;
+    border-top: 2px solid #111;
+}
+
+a {
+    color: #1d4ed8;
+}
+

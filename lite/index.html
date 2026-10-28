@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZHP3X9RK8C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZHP3X9RK8C');
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7831731953482296"
+     crossorigin="anonymous"></script>
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>るくのホームページ</title>
+    <meta name="description" content="簡易版のテキスト中心のホームページです。">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="site-header">
+        <div class="topline"></div>
+        <h1 class="site-title">るくのホームページ　lite</h1>
+        <p class="lead">このページは低速通信環境でも快適に閲覧できるよう、テキスト中心の簡易版ページです。</p>
+        <p>メインサイトはこちら：<a href="https://sites.google.com/view/ruku-homepage/るくのホームページ">るくのホームページ</a></p>
+    </header>
+
+    <main class="main-content">
+        <section>
+            <h2>プロフィール</h2>
+            <div class="profile-box">
+                <img src="./るく.jpg" alt="るくのプロフィール写真" class="profile-image">
+                <div class="profile-text">
+                    <p>名前：るく</p>
+                    <p>生年月日：2008年10月16日</p>
+                    <p>血液型：A型</p>
+                    <p>部活：生徒会執行部</p>
+                    <p>好きな色：水色</p>
+                    <p>出身地：京都府京都市</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>質問箱</h2>
+            <p>質問箱はこちら：<a href="https://sunq.me/b6757gk17a">質問箱</a></p>
+            <p>ご意見アドバイスなど：
+                <a id="mail-link" href="#">メールはこちら</a>
+            </p>
+        </section>
+
+        <section>
+            <h2>各種SNSアカウントの紹介</h2>
+            <ul>
+                <li>instagram：<a href="https://www.instagram.com/ruku2008_s.h?xtok=bXB5NHV0OWxyamNk">インスタはこちら</a></li>
+                <li>Tiktok：<a href="https://tiktok.com/t/ZS9yMNFfqCFK5-B7jlU/">Tiktokはこちら</a></li>
+                <li>X（旧Twitter）：<a href="https://x.com/ruku20081016">Xはこちら</a></li>
+                <li>Threads：<a href="https://www.threads.com/@ruku_s.h">Threadsはこちら</a></li>
+                <li>Github：<a href="https://github.com/ruku2008">Githubはこちら</a></li>
+            </ul>
+            <p>その他各種SNSアカウントについては、ご意見アドバイスのリンクからまたはinstagramのDMからご連絡ください。</p>
+        </section>
+
+        <section>
+            <h2>自作サイトについて</h2>
+            <p>数当てゲーム：<a href="https://ruku2008.github.io/ruku-Guess-the-number/">数当てゲーム</a></p>
+            <p>ショートカットファイル作成ツール：<a href="https://ruku2008.github.io/.url-file-Generator/">Windows shortcut generator</a></p>
+        </section>
+
+        <section>
+            <h2>このサイトについて</h2>
+            <p>このサイトはGithub Pagesを利用した個人サイトです。</p>
+            <p>情報を悪用するなどといった行為はお控えください。</p>
+            <p>ご協力よろしくお願いします。</p>
+        </section>
+    </main>
+
+    <script>
+        const mailAddress = "satoharuki2008+rukuhomepage@gmail.com";
+        const mailSubject = "るくのホームページお問い合わせについて";
+        const mailBody = [
+            "1. 題名（わかりやすいものでお願いします）",
+            "",
+            "2. アカウント名（匿名希望の場合は匿名と書いてください）または氏名",
+            "",
+            "3. 内容",
+            "",
+            "4. 問題があるものの写真など（必要な場合のみ）",
+            "",
+            "5. 返信が必要なのか（不要と書いた場合であっても必要に応じては返信させて頂きます）",
+            "",
+            "注意点",
+            "不適切な表現等があった場合は完全に無視させて頂きます。",
+            "",
+            "タメ口等は全然OKです！気軽にお願いします！"
+        ].join("\n");
+
+        const mailLink = document.getElementById("mail-link");
+        mailLink.href = "mailto:" + mailAddress
+            + "?subject=" + encodeURIComponent(mailSubject)
+            + "&body=" + encodeURIComponent(mailBody);
+    </script>
+</body>
+</html>
